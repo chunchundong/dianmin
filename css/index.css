@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../img/timg.jpg) no-repeat top center;
+}
+#btn{
+	text-align: center;
+}
+#box{
+	max-width: 800px;
+	max-height: 800px;
+	border: 2px solid yellowgreen;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.2);
+	box-shadow: 2px 2px 13px rgba(255,255,255,0.4);
+}
+
+.span_style{
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 6px;
+	/*background: url(../img/btn_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	color: #05ffea;*/
+}
+.active{
+	background-color: mediumspringgreen;
+}
